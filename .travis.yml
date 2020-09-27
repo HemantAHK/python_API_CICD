@@ -9,4 +9,5 @@ install:
 # command to run tests Commit
 script:
   - pycodestyle --show-source --show-pep8  src
+  - flake8 src
   - python -m pytest -v
