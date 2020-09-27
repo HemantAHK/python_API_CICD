@@ -6,6 +6,6 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
-# command to run tests C
+# command to run tests Commit
 script:
   - python -m pytest -v
